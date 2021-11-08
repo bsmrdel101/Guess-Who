@@ -1,0 +1,19 @@
+.image {
+    display: inline-block;
+    float: left;
+    margin: 1rem;
+}
+
+header {
+    text-align: center;
+}
+
+.animation {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
